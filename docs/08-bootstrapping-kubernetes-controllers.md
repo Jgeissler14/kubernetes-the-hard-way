@@ -160,7 +160,7 @@ At this point the Kubernetes control plane is up and running. Run the following 
 Make a HTTP request for the Kubernetes version info:
 
 ```bash
-curl -k --cacert ca.crt https://server.kubernetes.local:6443/version
+curl -k --cacert ca.crt https://server.us-central1-f.c.instant-bonfire-425921-s5.internal:6443/version
 ```
 
 ```text

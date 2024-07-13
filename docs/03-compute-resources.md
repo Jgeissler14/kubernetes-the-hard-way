@@ -19,9 +19,9 @@ cat machines.txt
 ```
 
 ```text
-XXX.XXX.XXX.XXX server.kubernetes.local server  
-XXX.XXX.XXX.XXX node-0.kubernetes.local node-0 10.200.0.0/24
-XXX.XXX.XXX.XXX node-1.kubernetes.local node-1 10.200.1.0/24
+XXX.XXX.XXX.XXX server.us-central1-f.c.instant-bonfire-425921-s5.internal server  
+XXX.XXX.XXX.XXX node-0.us-central1-f.c.instant-bonfire-425921-s5.internal node-0 10.200.0.0/24
+XXX.XXX.XXX.XXX node-1.us-central1-f.c.instant-bonfire-425921-s5.internal node-1 10.200.1.0/24
 ```
 
 Now it's your turn to create a `machines.txt` file with the details for the three machines you will be using to create your Kubernetes cluster. Use the example machine database from above and add the details for your machines. 
@@ -120,9 +120,9 @@ done < machines.txt
 ```
 
 ```text
-server.kubernetes.local
-node-0.kubernetes.local
-node-1.kubernetes.local
+server.us-central1-f.c.instant-bonfire-425921-s5.internal
+node-0.us-central1-f.c.instant-bonfire-425921-s5.internal
+node-1.us-central1-f.c.instant-bonfire-425921-s5.internal
 ```
 
 ## DNS
@@ -154,9 +154,9 @@ cat hosts
 ```text
 
 # Kubernetes The Hard Way
-XXX.XXX.XXX.XXX server.kubernetes.local server
-XXX.XXX.XXX.XXX node-0.kubernetes.local node-0
-XXX.XXX.XXX.XXX node-1.kubernetes.local node-1
+XXX.XXX.XXX.XXX server.us-central1-f.c.instant-bonfire-425921-s5.internal server
+XXX.XXX.XXX.XXX node-0.us-central1-f.c.instant-bonfire-425921-s5.internal node-0
+XXX.XXX.XXX.XXX node-1.us-central1-f.c.instant-bonfire-425921-s5.internal node-1
 ```
 
 ## Adding DNS Entries To A Local Machine
@@ -187,9 +187,9 @@ ff02::2 ip6-allrouters
 
 
 # Kubernetes The Hard Way
-XXX.XXX.XXX.XXX server.kubernetes.local server
-XXX.XXX.XXX.XXX node-0.kubernetes.local node-0
-XXX.XXX.XXX.XXX node-1.kubernetes.local node-1
+XXX.XXX.XXX.XXX server.us-central1-f.c.instant-bonfire-425921-s5.internal server
+XXX.XXX.XXX.XXX node-0.us-central1-f.c.instant-bonfire-425921-s5.internal node-0
+XXX.XXX.XXX.XXX node-1.us-central1-f.c.instant-bonfire-425921-s5.internal node-1
 ```
 
 At this point you should be able to SSH to each machine listed in the `machines.txt` file using a hostname.
